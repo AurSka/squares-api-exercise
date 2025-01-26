@@ -57,7 +57,7 @@ To use this:
 2. Create the database and schema with the migrations, by running `dotnet ef database update`
 3. Deploy using IIS Express. You could use Docker as well, but make sure the container can reach the database.
 
-Now the methods. They are defined via Swagger as well, but I'll define them here as well:
+Now the methods. They are defined via Swagger, but I'll define them here as well:
 - [HttpPost] Add (int x, int y) - Adds a point in the defined coordinates, if one isn't there already.
 - [HttpDelete] Delete (int x, int y) - Deletes a point in the defined coordinates, if one is present.
 - [HttpPost] Import (int[] x, int[] y, bool overwrite = true) - Imports an array of points by the X and Y coordinates indicated. If overwrite is true, overwrites the existing points.
