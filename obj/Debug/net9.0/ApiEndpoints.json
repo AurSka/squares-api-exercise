@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "SquarePointsAS.Controllers.SquarePointController",
+    "Method": "Add",
+    "RelativePath": "SquarePoint/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "y",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SquarePointsAS.Controllers.SquarePointController",
+    "Method": "Delete",
+    "RelativePath": "SquarePoint/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "y",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SquarePointsAS.Controllers.SquarePointController",
+    "Method": "Get",
+    "RelativePath": "SquarePoint/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.Collections.Generic.List\u00601[[SquarePointsAS.Entities.SquarePoint, SquarePointsAS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SquarePointsAS.Controllers.SquarePointController",
+    "Method": "Import",
+    "RelativePath": "SquarePoint/Import",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "System.Int32[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "y",
+        "Type": "System.Int32[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "overwrite",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

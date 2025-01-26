@@ -47,3 +47,18 @@ Don't reinvent the wheel when it comes to identifying squares. There are plenty 
 Take *as long as you need* on the solution but we suggest to limit yourself at 8 hours. Do let us know how much time it took you!
 
 The task is not made to be completed in the period of 8 hours and no one expects you to! However, knowing how much time you spent and seeing the solution you came up with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
+
+#The Result
+
+Time taken to write this: 7-8 hours
+
+To use this:
+1. Write in the connection string for the database in the Context file. 
+2. Create the database and schema with the migrations, by running `dotnet ef database update`
+3. Deploy using IIS Express. You could use Docker as well, but make sure the container can reach the database.
+
+Now the methods. They are defined via Swagger as well, but I'll define them here as well:
+- [HttpPost] Add (int x, int y) - Adds a point in the defined coordinates, if one isn't there already.
+- [HttpDelete] Delete (int x, int y) - Deletes a point in the defined coordinates, if one is present.
+- [HttpPost] Import (int[] x, int[] y, bool overwrite = true) - Imports an array of points by the X and Y coordinates indicated. If overwrite is true, overwrites the existing points.
+- [HttpGet] Get () - Gets a list of four-point lists, each of which makes up a square.
