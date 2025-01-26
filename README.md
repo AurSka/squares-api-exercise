@@ -48,7 +48,7 @@ Take *as long as you need* on the solution but we suggest to limit yourself at 8
 
 The task is not made to be completed in the period of 8 hours and no one expects you to! However, knowing how much time you spent and seeing the solution you came up with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
 
-#The Result
+# The Result
 
 Time taken to write this: 7-8 hours
 
